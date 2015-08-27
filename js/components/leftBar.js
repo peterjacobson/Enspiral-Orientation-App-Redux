@@ -8,7 +8,7 @@ var divStyle = {
 module.exports = React.createClass({
 	render: function () {
 		return (
-			<h1>{this.props.gameState.points}</h1>
+			<h1>Points</h1>
 		)
 	}
 })

@@ -3,6 +3,9 @@ import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import * as HomeActions from '../actions/HomeActions';
 import styles from '../../css/app.css';
+import Content from './content';
+import Leftbar from './leftBar';
+import gameData from '../../gameData';
 
 class Home extends Component {
   render() {
@@ -10,6 +13,9 @@ class Home extends Component {
     const actions = bindActionCreators(HomeActions, dispatch);
     return (
       <main>
+        <Leftbar /> 
+        <Content 
+          sections={gameData} />
         <h1 className={styles.text}>Welcome {title}!</h1>
         <button onClick={e => actions.changeTitle(prompt())}>
           Update Title

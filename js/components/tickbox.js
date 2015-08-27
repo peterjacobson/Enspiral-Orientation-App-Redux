@@ -10,15 +10,6 @@ module.exports = React.createClass({
 			width: '20',
 			height: '20',
 		}
-		var undoneTickStyle = {
-			backgroundColor: 'red'
-		}
-		var doneTickStyle = {
-			backgroundColor: 'green'
-		}
-		var stateStyle = gameState.challenges.id ? doneTickStyle : undoneTickStyle;
-		for (var style in stateStyle) { divStyle[style] = stateStyle[style]; }
-
 		return (
 			<div 
 				style={divStyle} 
@@ -32,7 +23,7 @@ module.exports = React.createClass({
 		nextState.challenges[this.props.id] = !this.props.gameState.challenges[this.props.id]
 		this.props.changeGameState({ gameState: nextState })
 		this.setStyle()
-	}
+	},
 	setStyle: function() {
 		
 	}
