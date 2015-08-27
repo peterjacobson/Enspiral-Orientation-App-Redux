@@ -1,17 +1,15 @@
-var React = require('react');
+import React, {Component} from 'react';
 
-var Section = require('./section');
+import Section from './section';
 
-var divStyle = {
-	position: 'absolute',
-	width: '100%',
-}
 
 module.exports = React.createClass({
-	render: function () {
-		var sections = this.props.sections;
-		var gameState = this.props.gameState;
-		var changeGameState = this.props.changeGameState;
+	render() {
+		var divStyle = {
+			position: 'absolute',
+			width: '100%',
+		}
+		const {sections, gameState} = this.props
 		return (
 			<div> 
 				<h1>Welcome To Enspiral</h1>
@@ -20,8 +18,7 @@ module.exports = React.createClass({
 					return (
 						<Section 
 							section={section} 
-							gameState={gameState}
-							changeGameState={changeGameState} />
+							gameState={gameState} />
 					)
 				})}
 				<p> {this.state} </p>

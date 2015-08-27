@@ -3,7 +3,6 @@ import gameData from "../../gameData"
 
 function initializeNewGameState() {
 	var gameState = {
-		points: 0
 	};
 	gameData.map(function(section) {
 		section.challenges.map(function(challenge) {
@@ -14,7 +13,6 @@ function initializeNewGameState() {
 }
 
 let defaultState = initializeNewGameState();
-console.log(defaultState);
 
 export default function(state = defaultState, action) {
   switch (action.type) {

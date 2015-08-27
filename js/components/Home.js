@@ -5,17 +5,16 @@ import * as HomeActions from '../actions/HomeActions';
 import styles from '../../css/app.css';
 import Content from './content';
 import Leftbar from './leftBar';
-import gameData from '../../gameData';
+import sections from '../../gameData';
 
 class Home extends Component {
   render() {
-    const {title, dispatch} = this.props;
+    const {title, dispatch, ...gameState} = this.props;
     const actions = bindActionCreators(HomeActions, dispatch);
     return (
       <main>
         <Leftbar /> 
-        <Content 
-          sections={gameData} />
+        <Content sections={sections} />
         <h1 className={styles.text}>Welcome {title}!</h1>
         <button onClick={e => actions.changeTitle(prompt())}>
           Update Title

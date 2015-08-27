@@ -15,6 +15,7 @@ class TickBox extends Component {
 			height: '20',
 			backgroundColor: 'green'
 		}
+
 		return (
 			<div 
 				style={divStyle} 
@@ -23,5 +24,9 @@ class TickBox extends Component {
 		)
 	}
 }
+
+// TickBox.propTypes = {
+// 	// gameState: PropTypes.object.isRequired
+// }
 
 export default connect(state => state.Challenge)(TickBox)
