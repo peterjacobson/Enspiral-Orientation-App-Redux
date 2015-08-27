@@ -13,12 +13,8 @@ class Home extends Component {
     const actions = bindActionCreators(HomeActions, dispatch);
     return (
       <main>
-        <Leftbar /> 
+        <Leftbar gameState={gameState} /> 
         <Content sections={sections} gameState={gameState}/>
-        <h1 className={styles.text}>Welcome {title}!</h1>
-        <button onClick={e => actions.changeTitle(prompt())}>
-          Update Title
-        </button>
       </main>
     );
   }
