@@ -8,21 +8,18 @@ var divStyle = {
 
 module.exports = React.createClass({
 	render: function () {
-		var challenges = this.props.section.challenges;
-		var gameState = this.props.gameState;
-		var changeGameState = this.props.changeGameState;
+		const {section, gameState} = this.props;
 		return (
 			<div>
-				<p>{this.props.section.header}</p>
-				{challenges.map(function(challenge) {
+				<p>{section.header}</p>
+				{section.challenges.map(function(challenge) {
 					return (
 						<Challenge 
 							challenge={challenge} 
-							gameState={gameState}
-							changeGameState={changeGameState} />
+							gameState={gameState} />
 					)
 				})}
-				<p>{this.props.section.footer}</p>
+				<p>{section.footer}</p>
 			</div>
 		)
 	}

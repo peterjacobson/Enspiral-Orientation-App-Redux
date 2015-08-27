@@ -10,18 +10,15 @@ var divStyle = {
 
 module.exports = React.createClass({
 	render: function () {
-		var challenge = this.props.challenge;
-		var gameState = this.props.gameState;
-		var changeGameState = this.props.changeGameState;
+		const {challenge, gameState} = this.props;
 		return (
-			<div className='challenge' id={this.props.challenge.id}>
+			<div className='challenge' id={challenge.id}>
 				<div>
 					<p>{challenge.title}</p>
 					<p>{challenge.points}</p>
 					<TickBox 
-						id={this.props.challenge.id} 
-						gameState={gameState}
-						changeGameState={changeGameState} />
+						id={challenge.id} 
+						checked={gameState.id} />
 				</div>
 				<p>{challenge.description}</p>
 			</div>

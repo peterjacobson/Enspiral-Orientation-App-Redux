@@ -11,10 +11,11 @@ class Home extends Component {
   render() {
     const {title, dispatch, ...gameState} = this.props;
     const actions = bindActionCreators(HomeActions, dispatch);
+    console.log(this.props);
     return (
       <main>
         <Leftbar /> 
-        <Content sections={sections} />
+        <Content sections={sections} gameState={gameState}/>
         <h1 className={styles.text}>Welcome {title}!</h1>
         <button onClick={e => actions.changeTitle(prompt())}>
           Update Title

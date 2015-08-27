@@ -5,7 +5,7 @@ import Section from './section';
 
 module.exports = React.createClass({
 	render() {
-		var divStyle = {
+		const divStyle = {
 			position: 'absolute',
 			width: '100%',
 		}
