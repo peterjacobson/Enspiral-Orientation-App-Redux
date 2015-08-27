@@ -1,28 +1,29 @@
 import React, {Component} from 'react';
 
-import Section from './section';
+import gameData from "../../gameData"
 
+const divStyle = {
+	position: 'absolute',
+	width: '100%',
+}
 
-module.exports = React.createClass({
+export default class ProgressBar extends Component {
 	render() {
-		const divStyle = {
-			position: 'absolute',
-			width: '100%',
-		}
-		const {sections, gameState} = this.props
+		const gameState = this.props.gameState
+		const challengePoints = {
+		};
+		gameData.map(function(section) {
+			section.challenges.map(function(challenge) {
+				challengePoints[challenge.id] = challenge.points
+			})
+		})
+		let score = Object.keys(gameState).reduce(function (prev, id) {
+			let add = gameState[id] ? challengePoints[id] : 0;
+			return prev + add
+		}, 0)
+
 		return (
-			<div> 
-				<h1>Welcome To Enspiral</h1>
-				<p>This is your journey into Enspiral</p>
-				{sections.map(function(section) {
-					return (
-						<Section 
-							section={section} 
-							gameState={gameState} />
-					)
-				})}
-				<p> {this.state} </p>
-			</div>
+			<h1>Points: {score}</h1>
 		)
 	}
-})
+}
