@@ -1,4 +1,5 @@
 var React = require('react');
+
 import gameData from "../../gameData"
 
 var divStyle = {

@@ -2,9 +2,14 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import * as HomeActions from '../actions/HomeActions';
+
 import styles from '../../css/app.css';
 import Content from './content';
 import Leftbar from './leftBar';
+
+import mui from 'material-ui';
+let LeftNav = mui.LeftNav;
+
 import sections from '../../gameData';
 
 class Home extends Component {

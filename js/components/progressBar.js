@@ -1,14 +1,28 @@
-var React = require('react');
+import React, {Component} from 'react';
 
-var divStyle = {
-	position: 'absolute',
-	width: '100%'
-}
+import Section from './section';
+
 
 module.exports = React.createClass({
-	render: function () {
+	render() {
+		const divStyle = {
+			position: 'absolute',
+			width: '100%',
+		}
+		const {sections, gameState} = this.props
 		return (
-			
+			<div> 
+				<h1>Welcome To Enspiral</h1>
+				<p>This is your journey into Enspiral</p>
+				{sections.map(function(section) {
+					return (
+						<Section 
+							section={section} 
+							gameState={gameState} />
+					)
+				})}
+				<p> {this.state} </p>
+			</div>
 		)
 	}
 })

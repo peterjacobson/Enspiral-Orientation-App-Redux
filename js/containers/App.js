@@ -1,12 +1,23 @@
-import React from 'react';
+import React, {Component} from 'react';
 import {Provider} from 'react-redux';
 import configureStore from '../store/configureStore';
 import Home from '../components/Home';
 import {renderDevTools} from '../utils/devTools';
+// MATERIAL UI STUFF ------------------------
+import mui from 'material-ui';
+let ThemeManager = new mui.Styles.ThemeManager();
+
+import injectTapEventPlugin from 'react-tap-event-plugin'
+//Needed for onTouchTap
+//Can go away when react 1.0 release
+//Check this repo:
+//https://github.com/zilverline/react-tap-event-plugin
+injectTapEventPlugin();
+// -------------------------------------------
 
 const store = configureStore();
 
-export default React.createClass({
+class App extends Component {
   render() {
     return (
       <div>
@@ -22,4 +33,19 @@ export default React.createClass({
       </div>
     );
   }
-});
+  getChildContext() { 
+    return {
+      muiTheme: ThemeManager.getCurrentTheme()
+    };
+  }
+};
+
+// MORE MATERIAL UI STUFF ---------------------------------
+// Important!
+App.childContextTypes = {
+  muiTheme: React.PropTypes.object
+};
+//--------------------------------------------------------
+
+
+module.exports = App;
