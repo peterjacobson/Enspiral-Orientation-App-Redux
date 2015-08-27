@@ -1,1 +1,3 @@
-# Enspiral-Orientation-App-Redux
+# Enspiral Orientation App 
+
+> Onboarding New People Into The Enspiral Network.
