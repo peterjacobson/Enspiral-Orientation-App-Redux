@@ -8,7 +8,7 @@ class TickBox extends Component {
 	render() {
     const {checked, id, dispatch} = this.props;
     const actions = bindActionCreators(HomeActions, dispatch);
-
+    console.log(checked);
 		var divStyle = {
 			position: 'absolute',
 			width: '20',

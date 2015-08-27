@@ -11,7 +11,6 @@ class Home extends Component {
   render() {
     const {title, dispatch, ...gameState} = this.props;
     const actions = bindActionCreators(HomeActions, dispatch);
-    console.log(this.props);
     return (
       <main>
         <Leftbar /> 
@@ -26,3 +25,4 @@ class Home extends Component {
 }
 
 export default connect(state => state.Sample)(Home)
+export default connect(state => state.Challenge)(Home)
