@@ -19,7 +19,7 @@ module.exports = React.createClass({
 					<p>{challenge.points}</p>
 					<TickBox 
 						id={id} 
-						checked={gameState[id]} />
+						checked={gameState[id].completed} />
 				</div>
 				<p>{challenge.description}</p>
 			</div>
