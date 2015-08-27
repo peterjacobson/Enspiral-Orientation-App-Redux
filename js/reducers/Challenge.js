@@ -20,7 +20,11 @@ console.log(defaultState);
 export default function(state = defaultState, action) {
   switch (action.type) {
     case ActionTypes.CHALLENGE_STATE_TOGGLED:
-    	let updatedState = Object.assign({}, state);
+    	//clone state object - this didn't work >> // let updatedState = Object.assign({}, state);
+    	const updatedState = {}
+    	Object.keys(state).map((key)=>{
+    		updatedState[key] = state[key]
+    	})
     	updatedState.challenges[action.id] = !state.challenges[action.id];
       return updatedState;
     default:

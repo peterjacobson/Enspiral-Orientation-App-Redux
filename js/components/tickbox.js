@@ -1,9 +1,13 @@
-var React = require('react');
+import React, {Component} from 'react';
+import {connect} from 'react-redux';
+import {bindActionCreators} from 'redux';
+import * as HomeActions from '../actions/HomeActions';
 
-module.exports = React.createClass({
-	render: function () {
-		var gameState = this.props.gameState;
-		var id = this.props.id
+
+class TickBox extends Component {	
+	render() {
+    const {gameState, id, dispatch} = this.props;
+    const actions = bindActionCreators(HomeActions, dispatch);
 
 		var divStyle = {
 			position: 'absolute',
@@ -18,14 +22,6 @@ module.exports = React.createClass({
 			</div>
 		)
 	}
-	// handleClick: function(e) {
-	// 	var nextState = this.props.gameState;
-	// 	console.log('click');
-	// 	nextState.challenges[this.props.id] = !this.props.gameState.challenges[this.props.id]
-	// 	this.props.changeGameState({ gameState: nextState })
-	// 	this.setStyle()
-	// },
-	// setStyle: function() {
-		
-	// }
-})
+}
+
+export default connect(state => state.Challenge)(TickBox)
