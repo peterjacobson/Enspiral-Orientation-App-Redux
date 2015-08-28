@@ -19,6 +19,11 @@ const descriptionStyle = {
 	display: 'inline-block',
 	width: '100%'
 }
+const headerStyle = {
+	display: 'flex',
+	alignItems: 'center',
+	justifyContent: 'center',
+}
 
 
 
@@ -29,7 +34,7 @@ module.exports = React.createClass({
 		return (
 			<div className='challenge container' id={id}
 				style={wrapperStyle}>
-				<div className='container'>
+				<div className='container' style={headerStyle}>
 					<strong style={titleStyle}>
 						{challenge.title}
 					</strong>

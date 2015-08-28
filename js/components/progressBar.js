@@ -2,9 +2,25 @@ import React, {Component} from 'react';
 
 import gameData from "../../gameData"
 
-const divStyle = {
+const doneStyle = {
+	position: 'absolute',
+	height: '100%',
+	width: '100%',
+	background: "url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/NZ_Southern_Island_forest.jpg/1024px-NZ_Southern_Island_forest.jpg') no-repeat center",
+	backgroundSize: 'cover',
+}
+
+const toDoStyle = {
+	position: 'absolute',
+	height: '10%',
+	width: '100%',
+	backgroundColor: 'black'
+}
+
+const pointStyle = {
 	position: 'absolute',
 	width: '100%',
+	color: 'white'
 }
 
 export default class ProgressBar extends Component {
@@ -23,7 +39,11 @@ export default class ProgressBar extends Component {
 		}, 0)
 
 		return (
-			<h1>Points: {score}</h1>
+			<div style={doneStyle}> 
+				<div style={toDoStyle}> 
+					<h1 style={pointStyle}>{score}</h1>
+				</div>
+			</div>
 		)
 	}
 }

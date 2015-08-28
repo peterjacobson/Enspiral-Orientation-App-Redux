@@ -27,9 +27,6 @@ class App extends Component {
           {() => <Home /> }
         </Provider>
 
-        {/* only renders when running in DEV mode */
-          renderDevTools(store)
-        }
       </div>
     );
   }
@@ -39,6 +36,10 @@ class App extends Component {
     };
   }
 };
+        // DEVTOOLS
+        // { only renders when running in DEV mode 
+        //   renderDevTools(store)
+        // }
 
 // MORE MATERIAL UI STUFF ---------------------------------
 // Important!

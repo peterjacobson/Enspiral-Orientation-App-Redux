@@ -16,8 +16,12 @@ class Home extends Component {
   render() {
     const {title, dispatch, ...gameState} = this.props;
     const actions = bindActionCreators(HomeActions, dispatch);
+    const mainStyle = {
+      display: 'inline-flex'
+    } 
+
     return (
-      <main>
+      <main style={mainStyle}>
         <Leftbar gameState={gameState} /> 
         <Content sections={sections} gameState={gameState}/>
       </main>
