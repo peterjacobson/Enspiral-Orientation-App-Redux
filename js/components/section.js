@@ -11,11 +11,12 @@ const divStyle = {
 const paperStyle = {
 	padding: 20,
 	marginBottom: 10,
-	maxWidth: 700
+	maxWidth: 600,
 }
 const cardStyle = {
 	padding: 10,
-	marginBottom: 5,
+	margin: 5,
+	width: '100%',
 }
 
 module.exports = React.createClass({
@@ -28,8 +29,8 @@ module.exports = React.createClass({
 					<p>{section.header}</p>
 					{section.challenges.map(function(challenge) {
 						return (
-							<Card 
-								className='card container' 
+							<Card
+								className='paper container clearfix' 
 								initiallyExpanded={true}
 								style={cardStyle} >
 								<Challenge 

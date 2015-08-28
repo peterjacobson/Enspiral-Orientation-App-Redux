@@ -4,7 +4,7 @@ var TickBox = require('./tickbox');
 
 
 const wrapperStyle = {
-	position: 'absolute',
+	position: 'relative',
 	width: '100%',
 }
 const titleStyle = {
@@ -33,9 +33,9 @@ module.exports = React.createClass({
 					<strong style={titleStyle}>
 						{challenge.title}
 					</strong>
-					<div style={pointStyle}>
+					<h3 style={pointStyle}>
 						{challenge.points}
-					</div>
+					</h3>
 					<TickBox 
 						id={id} 
 						checked={gameState[id]} />

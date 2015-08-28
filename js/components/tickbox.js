@@ -2,7 +2,8 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import * as HomeActions from '../actions/HomeActions';
-
+// import FontAwesome from 'react-fontawesome';
+var FontAwesome = require('react-fontawesome');
 
 class TickBox extends Component {	
 	render() {
@@ -11,16 +12,21 @@ class TickBox extends Component {
 		const divStyle = {
 			position: 'absolute',
 			display: 'inline-block',
-			width: '20',
-			height: '20',
-			backgroundColor: checked ? 'green' : 'yellow',
+			width: '30',
+			height: '30',
+			// backgroundColor: checked ? 'green' : 'yellow',
 		}
+		let icon = checked ? 'check-square-o' : 'square-o';
+		console.log(checked);
+		console.log(icon);
 
 		return (
-			<div 
-				style={divStyle} 
-				onClick={e => actions.toggleChallengeState(id)}>
-			</div>
+			<FontAwesome
+        className=''
+        name={icon}
+        size='2x'
+        style={divStyle} 
+        onClick={e => actions.toggleChallengeState(id)} />
 		)
 	}
 }
