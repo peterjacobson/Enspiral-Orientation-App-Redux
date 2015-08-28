@@ -3,7 +3,7 @@ import gameData from "../../gameData"
 import ProgressBar from "./progressBar"
 
 const divStyle = {
-	position: 'absolute',
+	position: 'fixed',
 	width: '100%',
 }
 
