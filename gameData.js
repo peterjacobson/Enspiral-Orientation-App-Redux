@@ -19,27 +19,27 @@ module.exports = [
 		challenges: [
 			{	
 				id: 1,
-				title: "Enspiral's loomio group",
+				title: "Join loomio",
 				points: 2,
-				description: ''
+				description: 'get involved in our homegrown decision-making software [here](https://www.loomio.org/g/1xCPyY46/enspiral)'
 			},
 			{	
 				id: 2,
-				title: "Enspiral's slack group",
+				title: "Join the Slack group",
 				points: 2,
-				description: ''
+				description: '[here](https://enspiral.slack.com)'
 			},
 			{	
 				id: 3,
-				title: "Enspiral's Google+ community",
+				title: "Join our Google+ community",
 				points: 2,
-				description: ''
+				description: '[here](https://plus.google.com/communities/116868233957153111149)'
 			},
 			{	
 				id: 4,
 				title: "Enspiral's news mailing list",
 				points: 2,
-				description: ''
+				description: '[here](http://us1.campaign-archive1.com/home/?u=62b0ebd5c3dbb30bced6e6cf9&id=9bb726b060)'
 			},			
 		],
 		footer: "Once you have accepted your Loomio invite(s) you will be announced to the network in the New Contributor Welcome and Introductions Loomio discussion.  This is a great way for the network to start to get to know you."
@@ -65,51 +65,51 @@ module.exports = [
 		challenges: [
 			{
 				id: 6,
-				title: "*Read Enspiral FAQ",
+				title: "*Nga FAQ",
 				points: 2,
-				description: "Read: [link]"
+				description: "Read [here](http://www.enspiral.com/faq/)"
 			},
 			{
 				id: 7,
-				title: "*Read Enspiral Communications Guide",
+				title: "*Nga Communications Guide",
 				points: 2,
-				description: "Read: [link]"
+				description: "Read [here](http://www.enspiral.com/faq/)"
 			},
 			{
 				id: 8,
-				title: "*Read Enspiral Agreements",
+				title: "*Enspiral Agreements",
 				points: 5,
-				description: "Read: [link], our Collective Vision, 2015 Strategy, Diversity Policy, People and Venture Agreements"
+				description: "Our Collective Vision, 2015 Strategy, Diversity Policy, People and Venture Agreements... read [here](http://www.enspiral.com/faq/)"
 			},
 			{
 				id: 9,
-				title: "Read Enspiral Tales",
+				title: "Enspiral Tales",
 				points: 5,
-				description: "Read: [link], the Enspiral blog on Medium"
+				description: "Awesome reading [here](https://medium.com/enspiral-tales/): the Enspiral blog on Medium"
 			},
 			{
 				id: 10,
-				title: "Read Enspiral: Changing the Way Social Entrepreneurs Do Business",
+				title: "Changing Social Entrepreneurship",
 				points: 2,
-				description: "Read: [link]"
+				description: "Read about Enspiral ['Changing the Way Social Entrepreneurs Do Business'](http://www.shareable.net/blog/enspiral-changing-the-way-social-entrepreneurs-do-business)"
 			},
 			{
 				id: 11,
-				title: "Read When Business Met Occupy : Innovating for True Collaborative Decision-making",
+				title: "True Collaborative Decision-making",
 				points: 5,
-				description: "Read: [link]"
+				description: "Read [When Business Met Occupy : Innovating for True Collaborative Decision-making](http://www.mixprize.org/story/when-business-met-occupy-innovating-true-collaborative-decision-making-and-true-empowerment)"
 			},
 			{
 				id: 12,
-				title: "Read Collaborative Funding : Dissolve Authority, Empower Everyone, and Crowdsource a Smarter, Transparent Budget",
+				title: "Collaborative Funding",
 				points: 5,
-				description: "Read: [link]"
+				description: "Read ['Collaborative Funding : Dissolve Authority, Empower Everyone, and Crowdsource a Smarter, Transparent Budget'](http://www.mixprize.org/story/collaborative-funding-dissolve-authority-empower-everyone-and-crowdsource-smarter-transparent)"
 			},
 			{
 				id: 13,
-				title: "Read Enspiral: Building an Open Source Society",
+				title: "Building an Open Source Society",
 				points: 2,
-				description: "Read: [link]"
+				description: "Read ['Building an Open Source Society'](http://www.namaste.org/blog/enspiral-open-source-society)"
 			},
 		]
 	},

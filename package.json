@@ -9,6 +9,7 @@
     "react": "^0.13.3",
     "react-flexbox": "^2.0.2",
     "react-fontawesome": "^0.2.5",
+    "react-markdown": "^1.0.3",
     "react-redux": "^1.0.1",
     "react-tap-event-plugin": "^0.1.7",
     "redux": "^1.0.1",

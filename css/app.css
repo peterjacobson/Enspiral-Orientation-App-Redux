@@ -17,3 +17,9 @@ body {
   display: table; 
   clear: both; 
 }
+
+a {
+	text-decoration: none;
+	color: #3F1197;
+	font-weight: 600;
+}

@@ -1,6 +1,7 @@
 var React = require('react');
-import mui from 'material-ui'
-let Card = mui.Card
+import ReactMarkdown from 'react-markdown';
+import mui from 'material-ui';
+let Card = mui.Card;
 
 var TickBox = require('./tickbox');
 
@@ -49,9 +50,9 @@ module.exports = React.createClass({
 						id={id} 
 						checked={gameState[id]} />
 				</div>
-				<div style={descriptionStyle}>
-					{challenge.description}
-				</div>
+				<ReactMarkdown 
+					style={descriptionStyle}
+					source={challenge.description} />
 			</Card>
 		)
 	},
