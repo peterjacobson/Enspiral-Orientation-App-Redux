@@ -1,15 +1,14 @@
 var React = require('react');
+import mui from 'material-ui'
+let Card = mui.Card
 
 var TickBox = require('./tickbox');
 
 
-const wrapperStyle = {
-	position: 'relative',
-	width: '100%',
-}
 const titleStyle = {
 	display: 'inline-block',
-	width: '80%'
+	width: '80%',
+	textAlign: 'left',
 }
 const pointStyle = {
 	display: 'inline-block',
@@ -20,9 +19,6 @@ const descriptionStyle = {
 	width: '100%'
 }
 const headerStyle = {
-	display: 'flex',
-	alignItems: 'center',
-	justifyContent: 'center',
 }
 
 
@@ -31,13 +27,21 @@ module.exports = React.createClass({
 	render: function () {
 		const {challenge, gameState} = this.props;
 		const id = challenge.id
+		const cardStyle = {
+			padding: 10,
+			margin: 5,
+			width: '100%',
+			background: gameState[id] ? "#69F27B" : 'white',
+		}
 		return (
-			<div className='challenge container' id={id}
-				style={wrapperStyle}>
-				<div className='container' style={headerStyle}>
-					<strong style={titleStyle}>
+			<Card
+				className='paper clearfix' 
+				initiallyExpanded={true}
+				style={cardStyle} >
+				<div className='' style={headerStyle}>
+					<h5 style={titleStyle}>
 						{challenge.title}
-					</strong>
+					</h5>
 					<h3 style={pointStyle}>
 						{challenge.points}
 					</h3>
@@ -48,7 +52,7 @@ module.exports = React.createClass({
 				<div style={descriptionStyle}>
 					{challenge.description}
 				</div>
-			</div>
+			</Card>
 		)
 	},
 })

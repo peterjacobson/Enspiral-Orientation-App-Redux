@@ -14,7 +14,6 @@ class TickBox extends Component {
 			display: 'inline-block',
 			width: '30',
 			height: '30',
-			// backgroundColor: checked ? 'green' : 'yellow',
 		}
 		let icon = checked ? 'check-square-o' : 'square-o';
 		console.log(checked);
@@ -24,7 +23,7 @@ class TickBox extends Component {
 			<FontAwesome
         className=''
         name={icon}
-        size='2x'
+        size='3x'
         style={divStyle} 
         onClick={e => actions.toggleChallengeState(id)} />
 		)

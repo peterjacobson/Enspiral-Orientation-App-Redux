@@ -6,9 +6,9 @@ module.exports = [
 		challenges: [
 			{
 				id: 0,
-				title: "you made it this far",
+				title: "You made it this far",
 				points: 2,
-				description: "nice one...go on, check the box ;)"
+				description: "nice one... go on, check the box ;)"
 			}
 		]
 	},

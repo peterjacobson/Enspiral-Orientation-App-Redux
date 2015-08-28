@@ -3,13 +3,13 @@ import Section from './section';
 
 module.exports = React.createClass({
 	render() {
+		const {sections, gameState} = this.props
 		const divStyle = {
 			display: 'inline-block',
 			position: 'absolute',
 			width: '70%',
 			marginLeft: '20%',
 		}
-		const {sections, gameState} = this.props
 		return (
 			<div style={divStyle}>
 				<img src='http://static1.squarespace.com/static/5169f4a1e4b0fdc6c23ef665/t/516a30bae4b0af9d19e3be3d/1432077874116/' alt='enspiral logo' style={{height:55, width:55, marginRight:20, display:'inline'}}/> 

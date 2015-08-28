@@ -2,7 +2,6 @@ import React from 'react';
 import Challenge from './challenge';
 import mui from 'material-ui'
 let Paper = mui.Paper
-let Card = mui.Card
 
 const divStyle = {
 	position: 'absolute',
@@ -10,13 +9,8 @@ const divStyle = {
 }
 const paperStyle = {
 	padding: 20,
-	marginBottom: 10,
+	marginBottom: 40,
 	maxWidth: 600,
-}
-const cardStyle = {
-	padding: 10,
-	margin: 5,
-	width: '100%',
 }
 
 module.exports = React.createClass({
@@ -29,14 +23,9 @@ module.exports = React.createClass({
 					<p>{section.header}</p>
 					{section.challenges.map(function(challenge) {
 						return (
-							<Card
-								className='paper container clearfix' 
-								initiallyExpanded={true}
-								style={cardStyle} >
-								<Challenge 
-									challenge={challenge} 
-									gameState={gameState} />
-							</Card>
+							<Challenge 
+								challenge={challenge} 
+								gameState={gameState} />
 						)
 					})}
 					<p>{section.footer}</p>

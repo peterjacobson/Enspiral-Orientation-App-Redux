@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import gameData from "../../gameData"
 import ProgressBar from "./progressBar"
+import mui from 'material-ui'
+let Paper = mui.Paper
 
 const divStyle = {
 	display: 'inline-block',
@@ -14,9 +16,9 @@ export default class LeftBar extends Component {
 	render() {
 		const {gameState} = this.props;
 		return (
-		  <div id='leftBar' style={divStyle} >
+		  <Paper zDepth={4} id='leftBar' style={divStyle} >
 		    <ProgressBar gameState={gameState} />   
-		  </div>
+		  </Paper>
 		)
 	}
 }
