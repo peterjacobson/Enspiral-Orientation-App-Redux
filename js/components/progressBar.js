@@ -10,12 +10,6 @@ const doneStyle = {
 	backgroundSize: 'cover',
 }
 
-const toDoStyle = {
-	position: 'absolute',
-	height: '10%',
-	width: '100%',
-	backgroundColor: 'black'
-}
 
 const pointStyle = {
 	position: 'absolute',
@@ -37,6 +31,12 @@ export default class ProgressBar extends Component {
 			let add = gameState[id] ? challengePoints[id] : 0;
 			return prev + add
 		}, 0)
+		const toDoStyle = {
+			position: 'absolute',
+			height: (100 - score) + '%',
+			width: '100%',
+			backgroundColor: 'black'
+		}
 
 		return (
 			<div style={doneStyle}> 
