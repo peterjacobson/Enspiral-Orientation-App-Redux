@@ -6,7 +6,8 @@ const divStyle = {
 	display: 'inline-block',
 	position: 'fixed',
 	height: '100%',
-	width: '7%',
+	width: '15%',
+	marginTop: -20,
 }
 
 export default class LeftBar extends Component {

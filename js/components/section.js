@@ -25,7 +25,7 @@ module.exports = React.createClass({
 		return (
 			<Paper className='paper' style={paperStyle}>
 				<div>
-					<h3>{section.title}</h3>
+					<h4>{section.title}</h4>
 					<p>{section.header}</p>
 					{section.challenges.map(function(challenge) {
 						return (

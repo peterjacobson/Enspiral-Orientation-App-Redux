@@ -7,6 +7,7 @@ const doneStyle = {
 	height: '100%',
 	width: '100%',
 	background: "url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/NZ_Southern_Island_forest.jpg/1024px-NZ_Southern_Island_forest.jpg') no-repeat center",
+	// background: "url('http://img.alibaba.com/img/pb/885/308/940/940308885_232.jpg') no-repeat center",
 	backgroundSize: 'cover',
 }
 
@@ -14,7 +15,9 @@ const doneStyle = {
 const pointStyle = {
 	position: 'absolute',
 	width: '100%',
-	color: 'white'
+	color: 'white',
+	textAlign: 'center',
+	bottom: 0
 }
 
 export default class ProgressBar extends Component {
