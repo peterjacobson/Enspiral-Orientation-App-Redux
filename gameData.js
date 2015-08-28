@@ -108,7 +108,7 @@ module.exports = [
 			{
 				id: 13,
 				title: "Building an Open Source Society",
-				points: 2,
+				points: 60,
 				description: "Read ['Building an Open Source Society'](http://www.namaste.org/blog/enspiral-open-source-society)"
 			},
 		]
