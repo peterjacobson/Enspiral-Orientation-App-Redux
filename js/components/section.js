@@ -10,6 +10,8 @@ const divStyle = {
 }
 const paperStyle = {
 	padding: 20,
+	marginBottom: 10,
+	maxWidth: 700
 }
 const cardStyle = {
 	padding: 10,
@@ -27,7 +29,7 @@ module.exports = React.createClass({
 					{section.challenges.map(function(challenge) {
 						return (
 							<Card 
-								className='card' 
+								className='card container' 
 								initiallyExpanded={true}
 								style={cardStyle} >
 								<Challenge 
