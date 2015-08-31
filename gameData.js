@@ -109,7 +109,7 @@ module.exports = [
 				id: 13,
 				title: "Building an Open Source Society",
 				points: 60,
-				description: "Read ['Building an Open Source Society'](http://www.namaste.org/blog/enspiral-open-source-society)"
+				description: "[not really worth 60 points, just to fill the progress bar ;)] Read ['Building an Open Source Society'](http://www.namaste.org/blog/enspiral-open-source-society)"
 			},
 		]
 	},
