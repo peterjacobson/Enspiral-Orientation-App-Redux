@@ -1,0 +1,20 @@
+{
+  "browser": {
+    "./render.js": "./render-browser.js",
+    "./api.js": "./api-browser.js"
+  },
+  "browserify": {
+    "transform": [
+      ["cssify", { "modules": true } ],
+      "babelify",
+      "envify",
+      "bulkify"
+    ]
+  },
+  "rc": {
+    "files": [
+      "../config/${NODE_ENV}",
+      "../config"
+    ]
+  }
+}
