@@ -1,0 +1,255 @@
+# Sections have challenges
+
+# section template
+#   - 
+#     title: Starting out
+#     description: |
+
+#     footer: 
+#     challenges:
+
+# challenge template
+#       -
+#         title: 
+#         points: 
+#         description: |
+
+#         id: 
+
+# Use https://www.guidgenerator.com/online-guid-generator.aspx to generate ids for new challenges!
+
+# Move archived challenges to the archived section
+
+sections:
+  - 
+    title: Starting out
+    description: |
+
+    footer: 
+    challenges:
+      -
+        title: You made it this far
+        points: 2
+        description: |
+          nice one... go on, check the box ;)
+        id: 6b16da21-a1bc-466a-a4b0-2ab50123cca9
+  - 
+    title: Join our online spaces
+    description: |
+      You should have received an invitation to these already - if this hasn’t happened then contact Phill Coxon at foundation@enspiral.com).
+    footer: Once youve accepted your Loomio invite(s) you will be announced to the network in the New Contributor Welcome and Introductions Loomio discussion.  This is a great way for the network to start to get to know you.
+    challenges:
+      -
+        title: Join us on Loomio
+        points: 2
+        description: |
+          get involved in our [homegrown decision-making software](https://www.loomio.org/g/1xCPyY46/enspiral)
+        id: cfa6d5c4-e10a-4f43-8266-c2896a4fbfa2
+      -
+        title: Join us on Slack
+        points: 2
+        description: |
+          wade into the [enspiral slack](https://enspiral.slack.com) sea
+        id: 7a2263aa-e678-4e5f-9e01-36eaaaad2577
+      -
+        title: Join us on Google+
+        points: 2
+        description: |
+          [enspiral google+](https://plus.google.com/communities/116868233957153111149)
+        id: a0292a67-dc5c-4c78-8bad-7a419175d4bf
+      -
+        title: Subscribe to our news mailing list
+        points: 2
+        description: |
+          [sign up here!](http://us1.campaign-archive1.com/home/?u=62b0ebd5c3dbb30bced6e6cf9&id=9bb726b060)
+        id: 31d58538-b494-4167-9563-d3051f1618cd
+  - 
+    title: Connect with your Enspiral Buddy
+    description: |
+
+    footer: 
+    challenges:
+      -
+        title: Connect with your buddy
+        points: 10
+        description: |
+          Youll have received an email about this. As soon as you can, schedule in a meet-up or skype call with this person. They’ll find out more about why you’ve joined, who you’d like to be connected to and show you around our online spaces (and our co-working space if you’re based in Wellington).
+          Things to discuss:
+          - What attracted you to Enspiral?
+          - What is your intention coming in? What would success look like to you?
+          - What do you think you might like to contribute? What skills are you bringing?
+          Based on these questions, they will think of three people for you to connect with (either through Slack or email)
+        id: 79d77999-fe67-4138-96eb-86f614007036
+  - 
+    title: Get the lay of the land
+    description: |
+      Some of the best reading and viewing material to get a sense of what Enspiral is all about and what we’ve been working on the past few years. We don’t suggest you consume all of these in your first week (unless you’re really keen!). The ones with an asterisk* on them are the most important reads to get you started.
+    footer: 
+    challenges:
+      -
+        title: FAQ
+        points: 2
+        description: |
+          Read [here](http://www.enspiral.com/faq/)
+        id: f1525428-bde5-4f9c-a459-cd80bdf6b8ea
+      -
+        title: Communications Guide
+        points: 2
+        description: |
+          Read [here](http://www.enspiral.com/faq/)
+        id: b43b0a7e-b1c8-40cb-8c47-ffbd34f9d23a
+      -
+        title: Enspiral Agreements
+        points: 5
+        description: |
+          Our Collective Vision, 2015 Strategy, Diversity Policy, People and Venture Agreements... read [here](http://www.enspiral.com/faq/)
+        id: 4aa20781-1c22-45b8-8c50-95797bbb1e69
+      -
+        title: Enspiral Tales
+        points: 5
+        description: |
+          Awesome reading [here](https://medium.com/enspiral-tales/): the Enspiral blog on Medium
+        id: 3e5fa232-cc4e-4d04-b38a-f2091de1a319
+      -
+        title: Changing Social Entrepreneurship
+        points: 2
+        description: |
+          Read about Enspiral [Changing the Way Social Entrepreneurs Do Business](http://www.shareable.net/blog/enspiral-changing-the-way-social-entrepreneurs-do-business)
+        id: a12a815f-231c-4569-8721-fcbbba095107
+      -
+        title: True Collaborative Decision-making
+        points: 5
+        description: |
+          Read [When Business Met Occupy : Innovating for True Collaborative Decision-making](http://www.mixprize.org/story/when-business-met-occupy-innovating-true-collaborative-decision-making-and-true-empowerment)
+        id: 51c7c281-6db7-452f-8be3-29df29c580a5
+      -
+        title: Collaborative Funding
+        points: 5
+        description: |
+          Read [Collaborative Funding : Dissolve Authority, Empower Everyone, and Crowdsource a Smarter, Transparent Budget](http://www.mixprize.org/story/collaborative-funding-dissolve-authority-empower-everyone-and-crowdsource-smarter-transparent)
+        id: 76adca98-83aa-4d03-b426-43aab740c95f
+      -
+        title: Building an Open Source Society
+        points: 4
+        description: |
+          Read [Building an Open Source Society](http://www.namaste.org/blog/enspiral-open-source-society)
+        id: 07d3dcdc-5639-4223-ac54-0d3d02904a4d
+      -
+        title: What is Enspiral? -10mins
+        points: 2
+        description: |
+          Watch [What is Enspiral?](https://www.youtube.com/watch?v=5O1B5vuOocU)
+        id: 1f91197c-f529-4151-9306-39a764033857
+      -
+        title: Whats Different About Working at Enspiral?
+        points: 2
+        description: |
+          Watch [Whats Different About Working at Enspiral?](https://www.youtube.com/watch?v=VCimgrFxzqM)
+        id: 21abd5d0-7ed1-4807-afe6-5dbaa072e573
+      -
+        title: Open Enspiral Videos -12x5mins
+        points: 8
+        description: |
+          Watch [Stories of Open Collaboration at the Open Source // Open Society Conference 2015](https://www.youtube.com/playlist?list=PLH4jIJHXyh2GOt63RFsOEiMDyuOJ_Bcs8)
+        id: 16c36c68-975e-4e55-aceb-89e39e68f792
+      -
+        title: Alanna Krause: Inventing a New Organizational Operating System -35mins
+        points: 5
+        description: |
+          Watch [Inventing a New Organizational Operating System](https://www.youtube.com/watch?v=4ABqCgKi4X0)
+        id: 7acb68c7-14f3-4886-b2da-f4d7973d1a62
+      -
+        title: Creating the Source Code for the Organization of the Future -1hr
+        points: 5
+        description: |
+          Watch [Creating the Source Code for the Organization of the Future](http://www.managementexchange.com/blog/creating-source-code-organization-future)
+        id: 5434cb81-3766-4ed4-9ba3-ac04813983d8
+      -
+        title: Ben Knight - The Internet's Missing Link: Tools for Turning Talk Into Action -13mins
+        points: 2
+        description: |
+          Watch [The Internet's Missing Link: Tools for Turning Talk Into Action](https://www.youtube.com/watch?v=wSj81OxhdBg)
+        id: c0d0bfdf-baee-4ff9-88d0-4c2c638eba17
+      -
+        title: Joshua Vial: Programming for Social Impact
+        points: 5
+        description: |
+          Watch [Joshua Vial: Programming for Social Impact](https://www.youtube.com/watch?v=MVeflOiVAsc)
+        id: 90b91f1e-8631-4942-9160-c583957a3eee
+  - 
+    title: Get involved
+    description: |
+
+    footer: 
+    challenges:
+      -
+        title: Add your voice to a Loomio discussion
+        points: 10
+        description: |
+          Contribute to a discussion or start a new one! Don't worry, everyone is friendly
+        id: 54ff2c0b-0f5c-4d45-9b6e-56b1295422e9
+      -
+        title: Complete your profile on Slack
+        points: 5
+        description: |
+          Be specific in the What I Do section so others will know what your passions and focus areas are.
+        id: 5ed4cf95-2920-4369-85d9-5d52c37b86ab
+      -
+        title: Post in Slack
+        points: 10
+        description: |
+          Share something in the #watercooler, #music or #cool-shit channels, ask something in #enspiralhelp
+        id: 31f63b50-d143-4a50-88d8-61d8bb545bcd
+      -
+        title: If you're in Wellington...
+        points: 10
+        description: |
+          Come along to one of our weekly afternoon tea (Tuesdays 4pm) or drinks (Friday from 5pm) events at Enspiral Space.
+        id: d3c20ea1-fc0a-451b-a39f-e7b70e3149b0
+      -
+        title: Take part in a Project Kitchen
+        points: 10
+        description: |
+          Check Slack for events listings. Project Kitchen is a fast and fun way to collaboratively problem-solve on some of the multitude of projects happening in the network
+        id: f1075d84-f33d-4278-8c20-8e0c88e1fd7c
+  - 
+    title: Next level
+    description: |
+
+    footer: 
+    challenges:
+      -
+        title: Help to improve this Orientation Process
+        points: 15
+        description: |
+          What was useful? 
+          What questions do you still have? 
+          What improvements would you make? 
+          Post in #improving-orientation channel on Slack!
+          Make a pull request to the content repo!
+        id: e238ce4a-ea0d-45ac-9b6c-db30f7edef2c
+      -
+        title: "Interview an Enspiral Member who inspires you, or an Enspiral Venture"
+        points: 25
+        description: |
+          Interview an [Enspiral Member](http://www.enspiral.com/people/) who inspires you or an [Enspiral Venture](http://www.enspiral.com/ventures/) you want to know more about and write it up for publishing in [Enspiral Tales](https://medium.com/enspiral-tales/) (let us know if you would like editorial help!)
+        id: 319fa29b-060c-4039-ac91-61ae4e4e2483
+      -
+        title: Contribute to the FAQ with your own question
+        points: 20
+        description: |
+          Is there something you don’t understand about Enspiral and want to? Do some research (ask on Slack to find who you need to talk to - the #enspiral-help channel is a great place to start) then email the Foundation Ops team ([foundation@enspiral.com](mailto:foundation@enspiral.com)) to publish it in [Enspiral FAQs](http://www.enspiral.com/faq/).
+        id: 50d42068-15ef-4f0a-995f-7ba9c2e5d171
+      -
+        title: Get involved in an Enspiral Experiment
+        points: 20
+        description: |
+          Check out the [experiments Trello Board](https://trello.com/b/PzrmSLGn/enspiral-experiments) and add yourself to an Experiment Card. Then get in contact with the people running this experiment to find out how you can contribute.
+        id: c40351dc-0baa-457f-9866-9eb9601710f1
+  -
+    title: Archived challenges
+    description: |
+
+    footer: 
+    challenges:
+
