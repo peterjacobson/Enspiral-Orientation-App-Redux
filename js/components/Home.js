@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
+import YAML from 'yamljs'
 import * as HomeActions from '../actions/HomeActions';
 
 import styles from '../../css/app.css';
@@ -10,7 +11,10 @@ import Leftbar from './leftBar';
 import mui from 'material-ui';
 let LeftNav = mui.LeftNav;
 
-import sections from '../../gameData';
+const sections = YAML.load("/gameData.yaml").sections
+  .filter((section) => {return !section.title.match(/Archived/)} )
+
+
 
 class Home extends Component {
   render() {

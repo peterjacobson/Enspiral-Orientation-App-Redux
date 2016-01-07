@@ -87,19 +87,19 @@ sections:
     footer: 
     challenges:
       -
-        title: ! FAQ
+        title: FAQ
         points: 2
         description: |
           Read [here](http://www.enspiral.com/faq/)
         id: f1525428-bde5-4f9c-a459-cd80bdf6b8ea
       -
-        title: ! Communications Guide
+        title: Communications Guide
         points: 2
         description: |
           Read [here](http://www.enspiral.com/faq/)
         id: b43b0a7e-b1c8-40cb-8c47-ffbd34f9d23a
       -
-        title: ! Enspiral Agreements
+        title: Enspiral Agreements
         points: 5
         description: |
           Our Collective Vision, 2015 Strategy, Diversity Policy, People and Venture Agreements... read [here](http://www.enspiral.com/faq/)
@@ -135,13 +135,13 @@ sections:
           Read [Building an Open Source Society](http://www.namaste.org/blog/enspiral-open-source-society)
         id: 07d3dcdc-5639-4223-ac54-0d3d02904a4d
       -
-        title: ! What is Enspiral? -10mins
+        title: What is Enspiral? -10mins
         points: 2
         description: |
           Watch [What is Enspiral?](https://www.youtube.com/watch?v=5O1B5vuOocU)
         id: 1f91197c-f529-4151-9306-39a764033857
       -
-        title: ! Whats Different About Working at Enspiral?
+        title: Whats Different About Working at Enspiral?
         points: 
         description: |
           Watch [Whats Different About Working at Enspiral?](https://www.youtube.com/watch?v=VCimgrFxzqM)
@@ -252,14 +252,4 @@ sections:
 
     footer: 
     challenges:
-
-
-
-      # -
-      #   title: 
-      #   points: 
-      #   description: |
-
-      #   id: 
-
 

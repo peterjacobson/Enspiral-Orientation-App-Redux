@@ -1,6 +1,11 @@
 import React, {Component} from 'react';
 
-import gameData from "../../gameData"
+// import gameData from "../../gameData"
+import YAML from 'yamljs'
+const gameData = YAML.load("/gameData.yaml").sections
+  .filter((section) => {return !section.title.match(/Archived/)} )
+
+
 
 const doneStyle = {
 	position: 'absolute',

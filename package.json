@@ -4,6 +4,7 @@
   "dependencies": {
     "babel-runtime": "^5.8.20",
     "font-awesome": "^4.4.0",
+    "fs": "0.0.2",
     "lodash": "^3.10.1",
     "material-ui": "^0.11.0",
     "react": "^0.13.3",
@@ -14,7 +15,8 @@
     "react-tap-event-plugin": "^0.1.7",
     "redux": "^1.0.1",
     "redux-devtools": "^1.1.2",
-    "redux-thunk": "^0.1.0"
+    "redux-thunk": "^0.1.0",
+    "yamljs": "^0.2.4"
   },
   "scripts": {
     "start": "DEBUG=true node server.js",

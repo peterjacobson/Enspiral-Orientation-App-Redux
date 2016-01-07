@@ -31,5 +31,8 @@ module.exports = {
   },
   resolve: {
     extensions: ['', '.js', '.json']
+  },
+  node: {
+    fs: 'empty'
   }
 };
