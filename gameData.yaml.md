@@ -1,24 +1,3 @@
-# Sections have challenges  
-  
-# section template  
-#   -   
-#     title: Starting out  
-#     description: |  
-  
-#     footer:   
-#     challenges:  
-  
-# challenge template  
-#       -  
-#         title:   
-#         points:   
-#         description: |  
-
-#         id:   
-# Use https://www.guidgenerator.com/online-guid-generator.aspx to generate ids for new challenges!  
-
-# Move archived challenges to the archived section  
-
 sections:  
   -   
     title: Starting out  
